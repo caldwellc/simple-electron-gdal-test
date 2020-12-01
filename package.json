@@ -20,7 +20,7 @@
     "gdal-next": "2.5.0"
   },
   "devDependencies": {
-    "electron": "10.1.6",
+    "electron": "^9.3.5",
     "electron-builder": "22.9.1"
   }
 }
