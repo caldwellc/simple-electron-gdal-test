@@ -12,7 +12,7 @@ init:
 
 install:
   - ps: Install-Product node 12 x64
-  - yarn
+  - npm install --msvs_version=2015
 
 build_script:
   - yarn dist

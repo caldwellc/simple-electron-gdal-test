@@ -13,7 +13,7 @@
     "start": "electron .",
     "postinstall": "electron-builder install-app-deps",
     "dist": "build",
-    "preinstall": "yarn config set msvs_version 2015 --global; yarn config set python 2.7;"
+    "preinstall": "npm config set msvs_version 2015 -g; npm config set python 2.7;"
   },
   "license": "MIT",
   "dependencies": {
